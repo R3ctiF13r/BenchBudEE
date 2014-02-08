@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 8
 Title ""
-Date "7 feb 2014"
+Date "8 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -44,14 +44,248 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 8450 2550 2    60   Output ~ 0
+Text HLabel 8500 3250 2    60   Output ~ 0
 PWR+
-Text HLabel 8450 2700 2    60   Input ~ 0
+Text HLabel 8500 3400 2    60   Input ~ 0
 PWR-
-Text HLabel 6450 2400 0    60   Output ~ 0
+Text HLabel 2500 5150 0    60   Output ~ 0
 TACH_OUT
-Text HLabel 6450 2600 0    60   Input ~ 0
+Text HLabel 2500 4000 0    60   Input ~ 0
 FAN_IN
-Text HLabel 8450 2900 2    60   Input ~ 0
+Text HLabel 8650 5150 2    60   Input ~ 0
 TACH
+$Comp
+L LM324 U?
+U 1 1 52F5F7EF
+P 6350 2750
+F 0 "U?" H 6400 2950 60  0000 C CNN
+F 1 "LM324" H 6500 2550 50  0000 C CNN
+F 2 "~" H 6350 2750 60  0000 C CNN
+F 3 "~" H 6350 2750 60  0000 C CNN
+	1    6350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOSFET_N Q?
+U 1 1 52F5F7FE
+P 7550 2750
+F 0 "Q?" H 7560 2920 60  0000 R CNN
+F 1 "MOSFET_N" H 7560 2600 60  0000 R CNN
+F 2 "~" H 7550 2750 60  0000 C CNN
+F 3 "~" H 7550 2750 60  0000 C CNN
+	1    7550 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2750 7350 2750
+$Comp
+L +12V #PWR?
+U 1 1 52F5F80E
+P 7650 2200
+F 0 "#PWR?" H 7650 2150 20  0001 C CNN
+F 1 "+12V" H 7650 2300 30  0000 C CNN
+F 2 "" H 7650 2200 60  0000 C CNN
+F 3 "" H 7650 2200 60  0000 C CNN
+	1    7650 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 2950 7650 3250
+Wire Wire Line
+	7650 3250 8500 3250
+$Comp
+L R R?
+U 1 1 52F5F820
+P 7650 3900
+F 0 "R?" V 7730 3900 40  0000 C CNN
+F 1 "R" V 7657 3901 40  0000 C CNN
+F 2 "~" V 7580 3900 30  0000 C CNN
+F 3 "~" H 7650 3900 30  0000 C CNN
+	1    7650 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3400 8500 3400
+Wire Wire Line
+	7650 3400 7650 3650
+$Comp
+L AGND #PWR?
+U 1 1 52F5F833
+P 7650 4400
+F 0 "#PWR?" H 7650 4400 40  0001 C CNN
+F 1 "AGND" H 7650 4330 50  0000 C CNN
+F 2 "" H 7650 4400 60  0000 C CNN
+F 3 "" H 7650 4400 60  0000 C CNN
+	1    7650 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4150 7650 4400
+Wire Wire Line
+	5850 2850 5600 2850
+Wire Wire Line
+	5600 2850 5600 4300
+Connection ~ 7650 3400
+$Comp
+L -12V #PWR?
+U 1 1 52F5F850
+P 6250 3250
+F 0 "#PWR?" H 6250 3380 20  0001 C CNN
+F 1 "-12V" H 6250 3350 30  0000 C CNN
+F 2 "" H 6250 3250 60  0000 C CNN
+F 3 "" H 6250 3250 60  0000 C CNN
+	1    6250 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6250 3150 6250 3250
+$Comp
+L +12V #PWR?
+U 1 1 52F5F867
+P 6250 2200
+F 0 "#PWR?" H 6250 2150 20  0001 C CNN
+F 1 "+12V" H 6250 2300 30  0000 C CNN
+F 2 "" H 6250 2200 60  0000 C CNN
+F 3 "" H 6250 2200 60  0000 C CNN
+	1    6250 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 2200 6250 2350
+Wire Wire Line
+	7650 2200 7650 2550
+Wire Wire Line
+	4650 2650 5850 2650
+$Comp
+L POT RV?
+U 1 1 52F5F895
+P 4800 3100
+F 0 "RV?" H 4800 3000 50  0000 C CNN
+F 1 "POT" H 4800 3100 50  0000 C CNN
+F 2 "~" H 4800 3100 60  0000 C CNN
+F 3 "~" H 4800 3100 60  0000 C CNN
+	1    4800 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 52F5F8A4
+P 4800 2250
+F 0 "R?" V 4880 2250 40  0000 C CNN
+F 1 "R" V 4807 2251 40  0000 C CNN
+F 2 "~" V 4730 2250 30  0000 C CNN
+F 3 "~" H 4800 2250 30  0000 C CNN
+	1    4800 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 52F5F8B1
+P 4800 1850
+F 0 "#PWR?" H 4800 1800 20  0001 C CNN
+F 1 "+12V" H 4800 1950 30  0000 C CNN
+F 2 "" H 4800 1850 60  0000 C CNN
+F 3 "" H 4800 1850 60  0000 C CNN
+	1    4800 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1850 4800 2000
+Wire Wire Line
+	4800 2500 4800 2850
+Connection ~ 4800 2650
+$Comp
+L AGND #PWR?
+U 1 1 52F5F8F6
+P 4800 3500
+F 0 "#PWR?" H 4800 3500 40  0001 C CNN
+F 1 "AGND" H 4800 3430 50  0000 C CNN
+F 2 "" H 4800 3500 60  0000 C CNN
+F 3 "" H 4800 3500 60  0000 C CNN
+	1    4800 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3350 4800 3500
+$Comp
+L MCP4922-E/P U?
+U 1 1 52F5F90F
+P 3300 2800
+F 0 "U?" H 3450 3200 40  0000 L BNN
+F 1 "MCP4922-E/P" H 3450 3150 40  0000 L BNN
+F 2 "DIP14" H 3300 2800 30  0000 C CIN
+F 3 "" H 3300 2800 60  0000 C CNN
+	1    3300 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 5150 8650 5150
+Text HLabel 2500 4300 0    60   Output ~ 0
+Current_Measure
+Wire Wire Line
+	5600 4300 2500 4300
+Connection ~ 5600 3400
+$Comp
+L R R?
+U 1 1 52F5F963
+P 5200 3100
+F 0 "R?" V 5280 3100 40  0000 C CNN
+F 1 "R" V 5207 3101 40  0000 C CNN
+F 2 "~" V 5130 3100 30  0000 C CNN
+F 3 "~" H 5200 3100 30  0000 C CNN
+	1    5200 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4000 5200 4000
+Wire Wire Line
+	5200 4000 5200 3350
+Wire Wire Line
+	5200 2850 5200 2650
+Connection ~ 5200 2650
+$Comp
+L R R?
+U 1 1 52F5F997
+P 4400 2650
+F 0 "R?" V 4480 2650 40  0000 C CNN
+F 1 "R" V 4407 2651 40  0000 C CNN
+F 2 "~" V 4330 2650 30  0000 C CNN
+F 3 "~" H 4400 2650 30  0000 C CNN
+	1    4400 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 2650 3850 2650
+Text HLabel 2250 2600 0    60   Input ~ 0
+MOSI
+Text HLabel 2250 2900 0    60   Output ~ 0
+MISO
+Text HLabel 2250 2800 0    60   Input ~ 0
+CS_N
+Text HLabel 2250 2700 0    60   Input ~ 0
+SCLK
+Wire Wire Line
+	2250 2600 2750 2600
+Wire Wire Line
+	2750 2700 2250 2700
+Wire Wire Line
+	2250 2800 2750 2800
+$Comp
+L R R?
+U 1 1 52F5FA3A
+P 2650 3450
+F 0 "R?" V 2730 3450 40  0000 C CNN
+F 1 "R" V 2657 3451 40  0000 C CNN
+F 2 "~" V 2580 3450 30  0000 C CNN
+F 3 "~" H 2650 3450 30  0000 C CNN
+	1    2650 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2650 3200 2650 3000
+Wire Wire Line
+	2650 3000 2750 3000
+Wire Wire Line
+	2650 3700 2650 4000
+Connection ~ 2650 4000
 $EndSCHEMATC
