@@ -35,9 +35,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 3 9
 Title ""
-Date "9 feb 2014"
+Date "10 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -137,23 +137,15 @@ $EndComp
 Wire Wire Line
 	7050 4100 7050 4400
 Wire Wire Line
-	6700 4400 7050 4400
+	6700 4400 7100 4400
 Wire Wire Line
-	7050 4400 7100 4400
+	7050 3400 7050 3600
 Wire Wire Line
-	7050 3400 7050 3500
-Wire Wire Line
-	7050 3500 7050 3600
-Wire Wire Line
-	7050 2750 7050 2850
-Wire Wire Line
-	7050 2850 7050 2900
+	7050 2750 7050 2900
 Wire Wire Line
 	7050 2250 7050 2050
 Wire Wire Line
-	6700 2050 7050 2050
-Wire Wire Line
-	7050 2050 7100 2050
+	6700 2050 7100 2050
 Wire Wire Line
 	7050 2850 8100 2850
 Wire Wire Line
@@ -225,9 +217,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 2050 4800 3200
 Wire Wire Line
-	4000 3200 4800 3200
-Wire Wire Line
-	4800 3200 4950 3200
+	4000 3200 4950 3200
 Wire Wire Line
 	6200 4400 5700 4400
 Wire Wire Line
@@ -324,9 +314,7 @@ F 3 "" H 4800 4600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4800 3500 4800 4400
-Wire Wire Line
-	4800 4400 4800 4600
+	4800 3500 4800 4600
 Wire Wire Line
 	4800 4400 5200 4400
 $Comp
@@ -362,9 +350,7 @@ F 3 "~" H 6950 5950 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6950 5650 6950 5700
-Wire Wire Line
-	6950 5700 6950 5750
+	6950 5650 6950 5750
 $Comp
 L AGND #PWR?
 U 1 1 52F4A5F2
@@ -390,9 +376,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 6600 5150 5800
 Wire Wire Line
-	5150 5800 5200 5800
-Wire Wire Line
-	5200 5800 5300 5800
+	5150 5800 5300 5800
 $Comp
 L MCP3550-60-E/SN U?
 U 1 1 52F4A684
@@ -430,4 +414,41 @@ Text Notes 6250 1450 0    60   ~ 0
 Instrumentation Amp
 Text Notes 3350 2650 0    60   ~ 0
 16-24 bit ADC
+$Comp
+L +12V #PWR?
+U 1 1 52F82613
+P 7700 4900
+F 0 "#PWR?" H 7700 4850 20  0001 C CNN
+F 1 "+12V" H 7700 5000 30  0000 C CNN
+F 2 "" H 7700 4900 60  0000 C CNN
+F 3 "" H 7700 4900 60  0000 C CNN
+	1    7700 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 52F827D8
+P 5900 5300
+F 0 "#PWR?" H 5900 5250 20  0001 C CNN
+F 1 "+12V" H 5900 5400 30  0000 C CNN
+F 2 "" H 5900 5300 60  0000 C CNN
+F 3 "" H 5900 5300 60  0000 C CNN
+	1    5900 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L -12V #PWR?
+U 1 1 52F827DE
+P 5900 6300
+F 0 "#PWR?" H 5900 6430 20  0001 C CNN
+F 1 "-12V" H 5900 6400 30  0000 C CNN
+F 2 "" H 5900 6300 60  0000 C CNN
+F 3 "" H 5900 6300 60  0000 C CNN
+	1    5900 6300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5900 6200 5900 6300
+Wire Wire Line
+	5900 5300 5900 5400
 $EndSCHEMATC
