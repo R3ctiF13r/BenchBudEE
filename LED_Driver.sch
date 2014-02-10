@@ -49,7 +49,7 @@ Text HLabel 3100 2900 0    60   Input ~ 0
 LED_EN_PWM
 Text HLabel 8650 1350 2    60   Output ~ 0
 LED+
-Text HLabel 8650 2900 2    60   Input ~ 0
+Text HLabel 8650 2900 2    60   Output ~ 0
 LED-
 $Comp
 L AP5726 U?
