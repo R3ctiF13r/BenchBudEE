@@ -1,11 +1,148 @@
-PCBNEW-LibModule-V1  2/20/2014 11:26:03 PM
+PCBNEW-LibModule-V1  2/23/2014 3:42:54 AM
 # encoding utf-8
 Units mm
 $INDEX
+12pin_TB
+3pin_TB
 4-SMD
+ATX_Header
 SMA
 TE-SPDT
 $EndINDEX
+$MODULE 12pin_TB
+Po 0 0 0 15 5309D190 00000000 ~~
+Li 12pin_TB
+Sc 0
+AR /52EE0B92/5309CB10
+Op 0 0 0
+T0 0.85 -4.42 1 1 0 0.15 N V 21 N "P4"
+T1 -0.33 4.5 1 1 0 0.15 N V 21 N "12 Pin Terminal Block"
+DS -2.29 0 -2.29 3.5 0.15 21
+DS -2.29 3.5 40.81 3.5 0.15 21
+DS 40.81 3.5 40.81 -3.5 0.15 21
+DS 40.81 -3.5 -2.29 -3.5 0.15 21
+DS -2.29 -3.5 -2.29 0 0.15 21
+DS -2.29 0 -2.3 0.01 0.15 21
+$PAD
+Sh "1" R 2 2 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 1 "+3.3V"
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" C 2 2 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 2 "+5V"
+Po 3.5 0
+$EndPAD
+$PAD
+Sh "3" C 2 2 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 12 "GND"
+Po 7 0
+$EndPAD
+$PAD
+Sh "4" C 2 2 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 8 "/Power_Adjustment_Monitor/V+_ADJ"
+Po 10.5 0
+$EndPAD
+$PAD
+Sh "5" C 2 2 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 9 "/Power_Adjustment_Monitor/V-_ADJ"
+Po 14 0
+$EndPAD
+$PAD
+Sh "6" C 2 2 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 6 "/LED_Driver/LED+"
+Po 17.5 0
+$EndPAD
+$PAD
+Sh "7" C 2 2 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 7 "/LED_Driver/LED-"
+Po 21 0
+$EndPAD
+$PAD
+Sh "8" C 2 2 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 3 "/Fan/PWR+"
+Po 24.5 0
+$EndPAD
+$PAD
+Sh "9" C 2 2 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 4 "/Fan/PWR-"
+Po 28 0
+$EndPAD
+$PAD
+Sh "10" C 2 2 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 5 "/Fan/TACH"
+Po 31.5 0
+$EndPAD
+$PAD
+Sh "11" C 2 2 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 10 "/Terminal_Block/TC_IN_+"
+Po 35 0
+$EndPAD
+$PAD
+Sh "12" C 2 2 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 11 "/Terminal_Block/TC_IN_-"
+Po 38.5 0
+$EndPAD
+$EndMODULE 12pin_TB
+$MODULE 3pin_TB
+Po 0 0 0 15 5309D1AE 00000000 ~~
+Li 3pin_TB
+Sc 0
+AR 
+Op 0 0 0
+T0 0.03 -5.03 1 1 0 0.15 N V 21 N "3pin_TB"
+T1 -0.53 5.25 1 1 0 0.15 N V 21 N "VAL**"
+DS -2.5 0 -2.5 4 0.15 21
+DS -2.5 4 12.5 4 0.15 21
+DS 12.5 4 12.5 -4 0.15 21
+DS 12.5 -4 -2.5 -4 0.15 21
+DS -2.5 -4 -2.5 0.05 0.15 21
+$PAD
+Sh "1" R 2 2 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" C 2 2 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5 0
+$EndPAD
+$PAD
+Sh "3" C 2 2 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10 0
+$EndPAD
+$EndMODULE 3pin_TB
 $MODULE 4-SMD
 Po 0 0 0 15 5305C354 00000000 ~~
 Li 4-SMD
@@ -48,6 +185,202 @@ Ne 0 ""
 Po 0 -9.017
 $EndPAD
 $EndMODULE 4-SMD
+$MODULE ATX_Header
+Po 0 0 0 15 5309DEBA 00000000 ~~
+Li ATX_Header
+Sc 0
+AR 
+Op 0 0 0
+T0 1.59 -8.67 1 1 0 0.15 N V 21 N "ATX_Header"
+T1 46.74 -8.67 1 1 0 0.15 N V 21 N "VAL**"
+DS -2.7 0 -2.7 13.9 0.15 21
+DS -2.7 13.9 48.9 13.9 0.15 21
+DS 48.9 13.9 48.9 -7.7 0.15 21
+DS 48.9 -7.7 -2.7 -7.7 0.15 21
+DS -2.7 -7.7 -2.7 0.02 0.15 21
+$PAD
+Sh "" C 3 3 0 0 0
+Dr 3 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 7.3
+$EndPAD
+$PAD
+Sh "" C 3 3 0 0 0
+Dr 3 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 46.2 7.3
+$EndPAD
+$PAD
+Sh "12" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 46.2 0
+$EndPAD
+$PAD
+Sh "2" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 42 0
+$EndPAD
+$PAD
+Sh "3" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 37.8 0
+$EndPAD
+$PAD
+Sh "4" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 33.6 0
+$EndPAD
+$PAD
+Sh "5" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 29.4 0
+$EndPAD
+$PAD
+Sh "6" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 25.2 0
+$EndPAD
+$PAD
+Sh "7" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21 0
+$EndPAD
+$PAD
+Sh "8" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.8 0
+$EndPAD
+$PAD
+Sh "9" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.6 0
+$EndPAD
+$PAD
+Sh "10" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.4 0
+$EndPAD
+$PAD
+Sh "11" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4.2 0
+$EndPAD
+$PAD
+Sh "24" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -5.5
+$EndPAD
+$PAD
+Sh "13" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 46.2 -5.5
+$EndPAD
+$PAD
+Sh "14" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 42 -5.5
+$EndPAD
+$PAD
+Sh "15" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 37.8 -5.5
+$EndPAD
+$PAD
+Sh "16" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 33.6 -5.5
+$EndPAD
+$PAD
+Sh "17" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 29.4 -5.5
+$EndPAD
+$PAD
+Sh "18" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 25.2 -5.5
+$EndPAD
+$PAD
+Sh "19" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21 -5.5
+$EndPAD
+$PAD
+Sh "20" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.8 -5.5
+$EndPAD
+$PAD
+Sh "21" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.6 -5.5
+$EndPAD
+$PAD
+Sh "22" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.4 -5.5
+$EndPAD
+$PAD
+Sh "23" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4.2 -5.5
+$EndPAD
+$EndMODULE ATX_Header
 $MODULE SMA
 Po 0 0 0 15 5306F561 00000000 ~~
 Li SMA

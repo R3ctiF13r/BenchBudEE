@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/22/2014 7:48:48 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/23/2014 3:41:27 AM
 
 BeginCmp
 TimeStamp = /52EE0AAE/52F9FF33;
@@ -171,8 +171,8 @@ EndCmp
 BeginCmp
 TimeStamp = /52EE0B23/52F76716;
 Reference = P1;
-ValeurCmp = CONN_12X2;
-IdModule  = ;
+ValeurCmp = 24 Pin MiniFit JR;
+IdModule  = ATX_Header;
 EndCmp
 
 BeginCmp
@@ -187,6 +187,20 @@ TimeStamp = /52EE0AFF/53095FBE;
 Reference = P3;
 ValeurCmp = CONN_3X2;
 IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EE0B92/5309CB10;
+Reference = P4;
+ValeurCmp = 12 Pin Terminal Block;
+IdModule  = 12pin_TB;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EE0B92/5309D123;
+Reference = P5;
+ValeurCmp = CONN_3;
+IdModule  = 3pin_TB;
 EndCmp
 
 BeginCmp
