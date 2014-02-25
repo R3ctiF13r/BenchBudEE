@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/23/2014 11:44:11 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/25/2014 12:21:36 AM
 
 BeginCmp
 TimeStamp = /52EE0AAE/530A9E5C;
@@ -11,21 +11,21 @@ BeginCmp
 TimeStamp = /52EE0B23/5302E70E;
 Reference = C1;
 ValeurCmp = C;
-IdModule  = SM0805;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0B23/52F769CC;
 Reference = C2;
 ValeurCmp = C;
-IdModule  = ;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0B23/52F769DF;
 Reference = C3;
 ValeurCmp = C;
-IdModule  = ;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -158,21 +158,21 @@ BeginCmp
 TimeStamp = /52EE0B23/5302E708;
 Reference = L1;
 ValeurCmp = INDUCTOR;
-IdModule  = ;
+IdModule  = SM1210L;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EE0B23/52F769B8;
+TimeStamp = /52EE0B23/530C517F;
 Reference = L2;
 ValeurCmp = INDUCTOR;
-IdModule  = ;
+IdModule  = SM1210L;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EE0B23/52F769D9;
+TimeStamp = /52EE0B23/530C5187;
 Reference = L3;
 ValeurCmp = INDUCTOR;
-IdModule  = ;
+IdModule  = SM1210L;
 EndCmp
 
 BeginCmp
@@ -232,16 +232,16 @@ IdModule  = SOT23GDS;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EE0B67/52F9D0E4;
+TimeStamp = /52EE0B67/530B70CB;
 Reference = Q3;
-ValeurCmp = MOSFET_N;
+ValeurCmp = NMOS;
 IdModule  = DPAK2;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EE0B67/52F5F7FE;
+TimeStamp = /52EE0B67/530B70BC;
 Reference = Q4;
-ValeurCmp = MOSFET_N;
+ValeurCmp = NMOS;
 IdModule  = DPAK2;
 EndCmp
 
@@ -452,7 +452,7 @@ BeginCmp
 TimeStamp = /52EE0B23/52F76966;
 Reference = R30;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -577,36 +577,36 @@ EndCmp
 BeginCmp
 TimeStamp = /52EE0B23/52F767D8;
 Reference = SW1;
-ValeurCmp = SWITCH_INV;
-IdModule  = ;
+ValeurCmp = SWITCH;
+IdModule  = SPDT_SW;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0B23/52F9DF34;
 Reference = TH1;
 ValeurCmp = THERMISTOR;
-IdModule  = ;
+IdModule  = SM1812;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EE0B23/52F9DF41;
+TimeStamp = /52EE0B23/530C510B;
 Reference = TH2;
 ValeurCmp = THERMISTOR;
-IdModule  = ;
+IdModule  = SM1812;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EE0B23/52F9DF47;
+TimeStamp = /52EE0B23/530C5113;
 Reference = TH3;
 ValeurCmp = THERMISTOR;
-IdModule  = ;
+IdModule  = SM1812;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EE0B23/52F9DF57;
+TimeStamp = /52EE0B23/530C511B;
 Reference = TH4;
 ValeurCmp = THERMISTOR;
-IdModule  = ;
+IdModule  = SM1812;
 EndCmp
 
 BeginCmp
