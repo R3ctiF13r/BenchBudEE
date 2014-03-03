@@ -1,8 +1,9 @@
-PCBNEW-LibModule-V1  2/28/2014 12:40:21 AM
+PCBNEW-LibModule-V1  3/2/2014 11:26:16 PM
 # encoding utf-8
 Units mm
 $INDEX
 12pin_TB
+3mm_drill
 3pin_TB
 4-SMD
 ARDUINO
@@ -115,6 +116,22 @@ Ne 11 "/Terminal_Block/TC_IN_-"
 Po 38.5 0
 $EndPAD
 $EndMODULE 12pin_TB
+$MODULE 3mm_drill
+Po 0 0 0 15 53142E8D 00000000 ~~
+Li 3mm_drill
+Sc 0
+AR 
+Op 0 0 0
+T0 0.65 -2.35 1 1 0 0.15 N I 21 N "3mm_drill"
+T1 0.65 2.45 1 1 0 0.15 N I 21 N "VAL**"
+$PAD
+Sh "" C 3 3 0 0 0
+Dr 3 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE 3mm_drill
 $MODULE 3pin_TB
 Po 0 0 0 15 5309D1AE 00000000 ~~
 Li 3pin_TB

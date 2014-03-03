@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/27/2014 11:39:44 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/2/2014 11:04:40 PM
 
 BeginCmp
 TimeStamp = /52EE0AAE/530A9E5C;
@@ -169,10 +169,10 @@ IdModule  = SMA;
 EndCmp
 
 BeginCmp
-TimeStamp = /52F76568/52F82FF3;
+TimeStamp = /52F76568/5312E719;
 Reference = JP1;
 ValeurCmp = JUMPER;
-IdModule  = 2PIN_6mm;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
@@ -718,28 +718,28 @@ BeginCmp
 TimeStamp = /52F76568/530D9A43;
 Reference = U7;
 ValeurCmp = LM337T;
-IdModule  = TO220;
+IdModule  = TO220_VERT;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F76568/52F82C8E;
 Reference = U8;
 ValeurCmp = LM317;
-IdModule  = TO220;
+IdModule  = TO220_VERT;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F76568/530D9A29;
 Reference = U9;
 ValeurCmp = LM337T;
-IdModule  = TO220;
+IdModule  = TO220_VERT;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F76568/530D992E;
 Reference = U10;
 ValeurCmp = LM317;
-IdModule  = TO220;
+IdModule  = TO220_VERT;
 EndCmp
 
 EndListe
