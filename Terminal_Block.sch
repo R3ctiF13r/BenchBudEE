@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 9
 Title ""
-Date "3 mar 2014"
+Date "6 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,19 +45,19 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 4750 1100 0    60   Input ~ 0
+Text HLabel 4750 1900 0    60   Input ~ 0
 V+_ADJ
-Text HLabel 4750 1200 0    60   Input ~ 0
+Text HLabel 4750 1800 0    60   Input ~ 0
 V-_ADJ
-Text HLabel 4750 1500 0    60   Input ~ 0
+Text HLabel 4750 1200 0    60   Input ~ 0
 PWR+
-Text HLabel 4750 1600 0    60   Input ~ 0
+Text HLabel 4750 1100 0    60   Input ~ 0
 PWR-
-Text HLabel 4750 1700 0    60   Output ~ 0
+Text HLabel 4750 1000 0    60   Output ~ 0
 TACH
-Text HLabel 4750 1300 0    60   Input ~ 0
+Text HLabel 4750 800  0    60   Input ~ 0
 LED+
-Text HLabel 4750 1400 0    60   Input ~ 0
+Text HLabel 4750 900  0    60   Input ~ 0
 LED-
 Text HLabel 4750 2400 0    60   BiDi ~ 0
 RELAY_NC
@@ -66,36 +66,36 @@ RELAY_NO
 Text HLabel 4750 2300 0    60   BiDi ~ 0
 RELAY_COM
 $Comp
-L +3.3V #PWR062
+L +3.3V #PWR060
 U 1 1 52F91565
-P 4750 750
-F 0 "#PWR062" H 4750 710 30  0001 C CNN
-F 1 "+3.3V" H 4750 860 30  0000 C CNN
-F 2 "" H 4750 750 60  0000 C CNN
-F 3 "" H 4750 750 60  0000 C CNN
-	1    4750 750 
+P 4150 1550
+F 0 "#PWR060" H 4150 1510 30  0001 C CNN
+F 1 "+3.3V" H 4150 1660 30  0000 C CNN
+F 2 "" H 4150 1550 60  0000 C CNN
+F 3 "" H 4150 1550 60  0000 C CNN
+	1    4150 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR063
+L +5V #PWR061
 U 1 1 52F91574
-P 4500 750
-F 0 "#PWR063" H 4500 840 20  0001 C CNN
-F 1 "+5V" H 4500 840 30  0000 C CNN
-F 2 "" H 4500 750 60  0000 C CNN
-F 3 "" H 4500 750 60  0000 C CNN
-	1    4500 750 
+P 3900 1550
+F 0 "#PWR061" H 3900 1640 20  0001 C CNN
+F 1 "+5V" H 3900 1640 30  0000 C CNN
+F 2 "" H 3900 1550 60  0000 C CNN
+F 3 "" H 3900 1550 60  0000 C CNN
+	1    3900 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR064
+L GND #PWR062
 U 1 1 52F91583
-P 6000 1000
-F 0 "#PWR064" H 6000 1000 30  0001 C CNN
-F 1 "GND" H 6000 930 30  0001 C CNN
-F 2 "" H 6000 1000 60  0000 C CNN
-F 3 "" H 6000 1000 60  0000 C CNN
-	1    6000 1000
+P 4750 1500
+F 0 "#PWR062" H 4750 1500 30  0001 C CNN
+F 1 "GND" H 4750 1430 30  0001 C CNN
+F 2 "" H 4750 1500 60  0000 C CNN
+F 3 "" H 4750 1500 60  0000 C CNN
+	1    4750 1500
 	0    1    1    0   
 $EndComp
 $Comp
@@ -112,37 +112,13 @@ F 5 "OSTTE120104" H 6550 1350 60  0001 C CNN "MFG PART NUM"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 1200 6200 1200
+	3900 1550 3900 1700
 Wire Wire Line
-	6200 1100 4750 1100
-Wire Wire Line
-	6200 1000 6000 1000
-Wire Wire Line
-	4500 900  6200 900 
-Wire Wire Line
-	4500 750  4500 900 
-Wire Wire Line
-	4750 800  4750 750 
-Wire Wire Line
-	6200 800  4750 800 
-Wire Wire Line
-	4750 1300 6200 1300
-Wire Wire Line
-	4750 1400 6200 1400
-Wire Wire Line
-	4750 1500 6200 1500
-Wire Wire Line
-	4750 1600 6200 1600
-Text HLabel 4750 1900 0    60   Output ~ 0
+	4150 1600 4150 1550
+Text HLabel 4750 1300 0    60   Output ~ 0
 TC_IN_-
-Text HLabel 4750 1800 0    60   Output ~ 0
+Text HLabel 4750 1400 0    60   Output ~ 0
 TC_IN_+
-Wire Wire Line
-	4750 1700 6200 1700
-Wire Wire Line
-	4750 1800 6200 1800
-Wire Wire Line
-	4750 1900 6200 1900
 $Comp
 L CONN_3 P5
 U 1 1 5309D123
@@ -162,4 +138,28 @@ Wire Wire Line
 	4750 2300 6200 2300
 Wire Wire Line
 	4750 2400 6200 2400
+Wire Wire Line
+	4150 1600 6200 1600
+Wire Wire Line
+	3900 1700 6200 1700
+Wire Wire Line
+	4750 800  6200 800 
+Wire Wire Line
+	6200 900  4750 900 
+Wire Wire Line
+	4750 1800 6200 1800
+Wire Wire Line
+	4750 1900 6200 1900
+Wire Wire Line
+	4750 1200 6200 1200
+Wire Wire Line
+	6200 1100 4750 1100
+Wire Wire Line
+	4750 1000 6200 1000
+Wire Wire Line
+	6200 1300 4750 1300
+Wire Wire Line
+	4750 1500 6200 1500
+Wire Wire Line
+	4750 1400 6200 1400
 $EndSCHEMATC

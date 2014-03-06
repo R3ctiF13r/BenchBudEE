@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/2/2014 11:04:40 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/5/2014 11:45:08 PM
 
 BeginCmp
 TimeStamp = /52EE0AAE/530A9E5C;
@@ -141,6 +141,20 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /52F76568/5318468D;
+Reference = C20;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F76568/53184748;
+Reference = C21;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /52EE0B15/52F740BE;
 Reference = D1;
 ValeurCmp = LED;
@@ -166,13 +180,6 @@ TimeStamp = /52EE0B67/52F9D192;
 Reference = D5;
 ValeurCmp = Schottky Diode;
 IdModule  = SMA;
-EndCmp
-
-BeginCmp
-TimeStamp = /52F76568/5312E719;
-Reference = JP1;
-ValeurCmp = JUMPER;
-IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
@@ -722,9 +729,9 @@ IdModule  = TO220_VERT;
 EndCmp
 
 BeginCmp
-TimeStamp = /52F76568/52F82C8E;
+TimeStamp = /52F76568/531432A3;
 Reference = U8;
-ValeurCmp = LM317;
+ValeurCmp = LM317K;
 IdModule  = TO220_VERT;
 EndCmp
 
@@ -736,9 +743,9 @@ IdModule  = TO220_VERT;
 EndCmp
 
 BeginCmp
-TimeStamp = /52F76568/530D992E;
+TimeStamp = /52F76568/53143282;
 Reference = U10;
-ValeurCmp = LM317;
+ValeurCmp = LM317K;
 IdModule  = TO220_VERT;
 EndCmp
 
