@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 9
 Title ""
-Date "6 mar 2014"
+Date "8 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -86,17 +86,6 @@ F 2 "" H 3900 1550 60  0000 C CNN
 F 3 "" H 3900 1550 60  0000 C CNN
 	1    3900 1550
 	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR062
-U 1 1 52F91583
-P 4750 1500
-F 0 "#PWR062" H 4750 1500 30  0001 C CNN
-F 1 "GND" H 4750 1430 30  0001 C CNN
-F 2 "" H 4750 1500 60  0000 C CNN
-F 3 "" H 4750 1500 60  0000 C CNN
-	1    4750 1500
-	0    1    1    0   
 $EndComp
 $Comp
 L CONN_12 P4
@@ -162,4 +151,15 @@ Wire Wire Line
 	4750 1500 6200 1500
 Wire Wire Line
 	4750 1400 6200 1400
+$Comp
+L GND_PWR #PWR062
+U 1 1 53199927
+P 4750 1500
+F 0 "#PWR062" H 4750 1500 30  0001 C CNN
+F 1 "GND_PWR" H 4750 1430 30  0000 C CNN
+F 2 "~" H 4750 1500 60  0000 C CNN
+F 3 "~" H 4750 1500 60  0000 C CNN
+	1    4750 1500
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

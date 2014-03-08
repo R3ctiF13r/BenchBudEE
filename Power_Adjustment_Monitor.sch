@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 9
 Title ""
-Date "6 mar 2014"
+Date "8 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -101,10 +101,10 @@ F 3 "" H 4800 2650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FE_V- #PWR61
+L FE_V- #PWR62
 U 1 1 52F83296
 P 4800 5450
-F 0 "#PWR61" H 4800 5650 40  0001 C CNN
+F 0 "#PWR62" H 4800 5650 40  0001 C CNN
 F 1 "FE_V-" H 4800 5600 40  0000 C CNN
 F 2 "" H 4800 5450 60  0000 C CNN
 F 3 "" H 4800 5450 60  0000 C CNN
@@ -529,17 +529,6 @@ F 3 "" H 4950 7650 60  0000 C CNN
 	1    4950 7650
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND_TC #PWR059
-U 1 1 53184501
-P 4950 4300
-F 0 "#PWR059" H 4950 4300 30  0001 C CNN
-F 1 "GND_TC" H 4950 4230 30  0000 C CNN
-F 2 "" H 4950 4300 60  0000 C CNN
-F 3 "" H 4950 4300 60  0000 C CNN
-	1    4950 4300
-	1    0    0    -1  
-$EndComp
 Connection ~ 2750 6100
 Connection ~ 4750 2250
 $Comp
@@ -583,4 +572,15 @@ Wire Wire Line
 	3050 1100 3050 800 
 Connection ~ 3050 800 
 Connection ~ 2750 4150
+$Comp
+L AGND #PWR059
+U 1 1 53199459
+P 4950 4300
+F 0 "#PWR059" H 4950 4300 40  0001 C CNN
+F 1 "AGND" H 4950 4230 50  0000 C CNN
+F 2 "" H 4950 4300 60  0000 C CNN
+F 3 "" H 4950 4300 60  0000 C CNN
+	1    4950 4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

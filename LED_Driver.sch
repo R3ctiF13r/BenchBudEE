@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 9
 Title ""
-Date "6 mar 2014"
+Date "8 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -66,17 +66,6 @@ F 5 "AP5726WG-7" H 4600 2800 60  0001 C CNN "MFG PART NUM"
 $EndComp
 Wire Wire Line
 	3100 2900 4000 2900
-$Comp
-L +5V #PWR037
-U 1 1 52F84ACD
-P 4400 1300
-F 0 "#PWR037" H 4400 1390 20  0001 C CNN
-F 1 "+5V" H 4400 1390 30  0000 C CNN
-F 2 "" H 4400 1300 60  0000 C CNN
-F 3 "" H 4400 1300 60  0000 C CNN
-	1    4400 1300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4400 1300 4400 1900
 $Comp
@@ -213,6 +202,17 @@ F 1 "GND_LED" H 8500 2230 30  0000 C CNN
 F 2 "" H 8500 2300 60  0000 C CNN
 F 3 "" H 8500 2300 60  0000 C CNN
 	1    8500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5P #PWR44
+U 1 1 53199C69
+P 4400 1300
+F 0 "#PWR44" H 4400 1430 20  0001 C CNN
+F 1 "+5P" H 4400 1400 30  0000 C CNN
+F 2 "" H 4400 1300 60  0000 C CNN
+F 3 "" H 4400 1300 60  0000 C CNN
+	1    4400 1300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
