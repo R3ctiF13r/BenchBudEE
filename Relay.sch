@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 9
 Title ""
-Date "9 mar 2014"
+Date "10 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -157,17 +157,6 @@ Wire Wire Line
 Wire Wire Line
 	6650 5400 6650 5100
 $Comp
-L +12V #PWR62
-U 1 1 52F74537
-P 7400 2050
-F 0 "#PWR62" H 7400 2000 20  0001 C CNN
-F 1 "+12V" H 7400 2150 30  0000 C CNN
-F 2 "" H 7400 2050 60  0000 C CNN
-F 3 "" H 7400 2050 60  0000 C CNN
-	1    7400 2050
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R4
 U 1 1 52F74544
 P 7400 2500
@@ -273,6 +262,17 @@ F 1 "GND_RELAY" H 7850 5330 30  0000 C CNN
 F 2 "" H 7850 5400 60  0000 C CNN
 F 3 "" H 7850 5400 60  0000 C CNN
 	1    7850 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12P #PWR?
+U 1 1 531D6008
+P 7400 2050
+F 0 "#PWR?" H 7400 2020 30  0001 C CNN
+F 1 "+12P" H 7400 2150 30  0000 C CNN
+F 2 "" H 7400 2050 60  0000 C CNN
+F 3 "" H 7400 2050 60  0000 C CNN
+	1    7400 2050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

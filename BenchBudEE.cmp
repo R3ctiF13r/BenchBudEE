@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/8/2014 4:46:06 PM
+Cmp-Mod V01 Created by PcbNew date = 3/9/2014 5:05:44 PM
 
 BeginCmp
 TimeStamp = /52EE0AAE/530A9E5C;
@@ -186,28 +186,28 @@ BeginCmp
 TimeStamp = /52EE0B23/531BC10A;
 Reference = JP1;
 ValeurCmp = JUMPER;
-IdModule  = PIN_ARRAY_2X1;
+IdModule  = GND_PNT;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0B23/531BC117;
 Reference = JP2;
 ValeurCmp = JUMPER;
-IdModule  = PIN_ARRAY_2X1;
+IdModule  = GND_PNT;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0B23/531BC11D;
 Reference = JP3;
 ValeurCmp = JUMPER;
-IdModule  = PIN_ARRAY_2X1;
+IdModule  = GND_PNT;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0B23/531BC123;
 Reference = JP4;
 ValeurCmp = JUMPER;
-IdModule  = PIN_ARRAY_2X1;
+IdModule  = GND_PNT;
 EndCmp
 
 BeginCmp
@@ -256,7 +256,7 @@ BeginCmp
 TimeStamp = /52EE0AFF/5309C7C0;
 Reference = P2;
 ValeurCmp = CONN_2;
-IdModule  = PIN_ARRAY_2X1;
+IdModule  = GND_PNT;
 EndCmp
 
 BeginCmp
