@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 9
 Title ""
-Date "10 mar 2014"
+Date "15 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -49,9 +49,9 @@ Text HLabel 7000 3750 2    60   Output ~ 0
 RELAY+
 Text HLabel 7000 4150 2    60   Output ~ 0
 RELAY-
-Text HLabel 7000 1850 2    60   Output ~ 0
+Text HLabel 7000 1650 2    60   Output ~ 0
 MOSI
-Text HLabel 7000 1650 2    60   Input ~ 0
+Text HLabel 7000 1850 2    60   Input ~ 0
 MISO
 Text HLabel 7000 1450 2    60   Output ~ 0
 SCLK

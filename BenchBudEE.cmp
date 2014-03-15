@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 3/9/2014 5:05:44 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/15/2014 12:30:26 AM
 
 BeginCmp
 TimeStamp = /52EE0AAE/530A9E5C;
@@ -246,6 +246,13 @@ IdModule  = NR4012;
 EndCmp
 
 BeginCmp
+TimeStamp = /52EE0AFF/532400BF;
+Reference = L5;
+ValeurCmp = INDUCTOR;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /52EE0B23/52F76716;
 Reference = P1;
 ValeurCmp = 24 Pin MiniFit JR;
@@ -256,7 +263,7 @@ BeginCmp
 TimeStamp = /52EE0AFF/5309C7C0;
 Reference = P2;
 ValeurCmp = CONN_2;
-IdModule  = GND_PNT;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
