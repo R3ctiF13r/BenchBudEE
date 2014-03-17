@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/15/2014 12:30:26 AM
+Cmp-Mod V01 Created by PcbNew date = 3/16/2014 4:11:20 PM
 
 BeginCmp
 TimeStamp = /52EE0AAE/530A9E5C;
@@ -361,105 +361,105 @@ BeginCmp
 TimeStamp = /52EE0AAE/5302EB0F;
 Reference = R7;
 ValeurCmp = R;
-IdModule  = SM0805-bridge;
+IdModule  = SM0805-BR;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0AAE/52F9FF40;
 Reference = R8;
 ValeurCmp = R;
-IdModule  = SM0805-bridge;
+IdModule  = SM0805-BR;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0AAE/52F8BEBC;
 Reference = R9;
 ValeurCmp = R;
-IdModule  = SM0805-bridge;
+IdModule  = SM0805-BR;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0AAE/52F8BEB6;
 Reference = R10;
 ValeurCmp = R;
-IdModule  = SM0805-bridge;
+IdModule  = SM0805-BR;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0AAE/52F8B760;
 Reference = R11;
 ValeurCmp = R;
-IdModule  = SM0805-bridge;
+IdModule  = SM0805-BR;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0AAE/52F8B730;
 Reference = R12;
 ValeurCmp = R;
-IdModule  = SM0805-bridge;
+IdModule  = SM0805-BR;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0AAE/52F8BF5A;
 Reference = R13;
 ValeurCmp = R;
-IdModule  = SM0805-bridge;
+IdModule  = SM0805-BR;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0AAE/52F8BF54;
 Reference = R14;
 ValeurCmp = R;
-IdModule  = SM0805-bridge;
+IdModule  = SM0805-BR;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0AAE/52F8BF4E;
 Reference = R15;
 ValeurCmp = R;
-IdModule  = SM0805-bridge;
+IdModule  = SM0805-BR;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0AAE/52F8B0F4;
 Reference = R16;
 ValeurCmp = R;
-IdModule  = SM0805-bridge;
+IdModule  = SM0805-BR;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0AAE/52F8C429;
 Reference = R17;
 ValeurCmp = R;
-IdModule  = SM0805-bridge;
+IdModule  = SM0805-BR;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0AAE/52F912F6;
 Reference = R18;
 ValeurCmp = R;
-IdModule  = SM0805-bridge;
+IdModule  = SM0805-BR;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0AAE/52F8BF34;
 Reference = R19;
 ValeurCmp = R;
-IdModule  = SM0805-bridge;
+IdModule  = SM0805-BR;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0AAE/52F8B683;
 Reference = R20;
 ValeurCmp = R;
-IdModule  = SM0805-bridge;
+IdModule  = SM0805-BR;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0AAE/52F9FE44;
 Reference = R21;
 ValeurCmp = R;
-IdModule  = SM0805-bridge;
+IdModule  = SM0805-BR;
 EndCmp
 
 BeginCmp
@@ -606,14 +606,14 @@ BeginCmp
 TimeStamp = /52EE0AAE/5309B121;
 Reference = R42;
 ValeurCmp = R;
-IdModule  = SM0805-bridge;
+IdModule  = SM0805-BR;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0AAE/5309B129;
 Reference = R43;
 ValeurCmp = R;
-IdModule  = SM0805-bridge;
+IdModule  = SM0805-BR;
 EndCmp
 
 BeginCmp
@@ -634,14 +634,14 @@ BeginCmp
 TimeStamp = /52EE0AAE/530AF51E;
 Reference = R46;
 ValeurCmp = R;
-IdModule  = SM0805-bridge;
+IdModule  = SM0805-BR;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0AAE/530AF518;
 Reference = R47;
 ValeurCmp = R;
-IdModule  = SM0805-bridge;
+IdModule  = SM0805-BR;
 EndCmp
 
 BeginCmp
