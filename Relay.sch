@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 9
 Title ""
-Date "17 mar 2014"
+Date "22 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -275,4 +275,32 @@ F 3 "" H 7400 2050 60  0000 C CNN
 	1    7400 2050
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_1 TP7
+U 1 1 532D5023
+P 8450 3400
+F 0 "TP7" H 8530 3400 40  0000 L CNN
+F 1 "RLY-" H 8450 3455 30  0001 C CNN
+F 2 "" H 8450 3400 60  0000 C CNN
+F 3 "" H 8450 3400 60  0000 C CNN
+	1    8450 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 3400 8200 3400
+Connection ~ 8200 3400
+$Comp
+L CONN_1 TP6
+U 1 1 532D507C
+P 7800 1950
+F 0 "TP6" H 7880 1950 40  0000 L CNN
+F 1 "+12P" H 7800 2005 30  0001 C CNN
+F 2 "" H 7800 1950 60  0000 C CNN
+F 3 "" H 7800 1950 60  0000 C CNN
+	1    7800 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7800 2100 7800 2150
+Connection ~ 7800 2150
 $EndSCHEMATC

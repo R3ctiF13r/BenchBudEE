@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 9
 Title ""
-Date "17 mar 2014"
+Date "22 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -184,7 +184,7 @@ F 5 "DMN65D8L-7" H 4950 3000 60  0001 C CNN "MFG PART NUM"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5050 2800 5050 2650
+	5050 2550 5050 2800
 Connection ~ 5050 2650
 Wire Wire Line
 	4750 3000 4200 3000
@@ -387,5 +387,16 @@ F 2 "" H 2400 1850 60  0000 C CNN
 F 3 "" H 2400 1850 60  0000 C CNN
 	1    2400 1850
 	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 TP5
+U 1 1 532D4CCC
+P 5050 2400
+F 0 "TP5" H 5130 2400 40  0000 L CNN
+F 1 "DAC_OUT" H 5050 2455 30  0001 C CNN
+F 2 "" H 5050 2400 60  0000 C CNN
+F 3 "" H 5050 2400 60  0000 C CNN
+	1    5050 2400
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

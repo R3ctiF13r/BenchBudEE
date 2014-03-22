@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 9
 Title ""
-Date "17 mar 2014"
+Date "22 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -778,4 +778,43 @@ Wire Wire Line
 	4450 2300 4650 2300
 Wire Wire Line
 	4650 2300 4650 2150
+$Comp
+L CONN_1 TP3
+U 1 1 532D4A9C
+P 4550 3100
+F 0 "TP3" H 4630 3100 40  0000 L CNN
+F 1 "CH0+" H 4550 3155 30  0001 C CNN
+F 2 "" H 4550 3100 60  0000 C CNN
+F 3 "" H 4550 3100 60  0000 C CNN
+	1    4550 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 TP4
+U 1 1 532D4ABD
+P 4850 3750
+F 0 "TP4" H 4930 3750 40  0000 L CNN
+F 1 "CH1+" H 4850 3805 30  0001 C CNN
+F 2 "" H 4850 3750 60  0000 C CNN
+F 3 "" H 4850 3750 60  0000 C CNN
+	1    4850 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 TP2
+U 1 1 532D56D9
+P 3100 700
+F 0 "TP2" H 3180 700 40  0000 L CNN
+F 1 "+5V" H 3100 755 30  0001 C CNN
+F 2 "" H 3100 700 60  0000 C CNN
+F 3 "" H 3100 700 60  0000 C CNN
+	1    3100 700 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 850  3100 1150
+Connection ~ 3100 1150
+Wire Wire Line
+	4550 3250 4550 3350
+Connection ~ 4550 3350
 $EndSCHEMATC
