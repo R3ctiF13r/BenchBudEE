@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/23/2014 1:00:02 AM
+Cmp-Mod V01 Created by PcbNew date = 3/25/2014 1:02:28 AM
 
 BeginCmp
 TimeStamp = /52EE0AAE/530A9E5C;
@@ -235,28 +235,28 @@ BeginCmp
 TimeStamp = /52EE0B23/531BC10A;
 Reference = JP1;
 ValeurCmp = JUMPER;
-IdModule  = GND_PNT;
+IdModule  = GND_PNT_1;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0B23/531BC117;
 Reference = JP2;
 ValeurCmp = JUMPER;
-IdModule  = GND_PNT;
+IdModule  = GND_PNT_1;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0B23/531BC11D;
 Reference = JP3;
 ValeurCmp = JUMPER;
-IdModule  = GND_PNT;
+IdModule  = GND_PNT_1;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EE0B23/531BC123;
 Reference = JP4;
 ValeurCmp = JUMPER;
-IdModule  = GND_PNT;
+IdModule  = GND_PNT_1;
 EndCmp
 
 BeginCmp
