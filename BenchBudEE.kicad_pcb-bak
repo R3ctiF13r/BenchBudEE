@@ -5103,7 +5103,7 @@
   (segment (start 215.4809 160.0454) (end 213.2457 157.8102) (width 0.6096) (layer B.Cu) (net 1) (tstamp 53327F81))
   (segment (start 219.1004 160.0454) (end 215.4809 160.0454) (width 0.6096) (layer B.Cu) (net 1) (tstamp 53327F7E))
   (segment (start 219.1258 160.0708) (end 219.1004 160.0454) (width 0.6096) (layer B.Cu) (net 1) (tstamp 53327F7D))
-  (via (at 219.1258 160.0708) (size 0.889) (layers F.Cu B.Cu) (net 1))
+  (via (at 219.1258 160.0708) (size 0.6858) (drill 0.3302) (layers F.Cu B.Cu) (net 1))
   (segment (start 219.0877 160.1089) (end 219.1258 160.0708) (width 0.6096) (layer PWR) (net 1) (tstamp 53327F77))
   (segment (start 87.3379 179.6161) (end 87.3379 175.2981) (width 0.9144) (layer PWR) (net 1))
   (via (at 87.376 175.26) (size 1.1684) (drill 0.6096) (layers F.Cu B.Cu) (net 1))
